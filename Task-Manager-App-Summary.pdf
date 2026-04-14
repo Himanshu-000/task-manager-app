@@ -1,0 +1,260 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 3048 >>
+stream
+BT
+/F2 18 Tf
+42 800 Td
+(Task Manager App Summary) Tj
+ET
+BT
+/F2 12.5 Tf
+42 774 Td
+(What It Is) Tj
+ET
+BT
+/F1 10.5 Tf
+42 756 Td
+(A browser-based single-page task manager for creating and tracking personal to-do items. It) Tj
+ET
+BT
+/F1 10.5 Tf
+42 742.5 Td
+(runs entirely on the client with plain HTML, CSS, and JavaScript, and stores task data in) Tj
+ET
+BT
+/F1 10.5 Tf
+42 729 Td
+(localStorage.) Tj
+ET
+BT
+/F2 12.5 Tf
+42 709.5 Td
+(Who It's For) Tj
+ET
+BT
+/F1 10.5 Tf
+42 691.5 Td
+(Primary persona: an individual user who wants a lightweight personal task list in a browser) Tj
+ET
+BT
+/F1 10.5 Tf
+42 678 Td
+(without sign-in, backend setup, or external services.) Tj
+ET
+BT
+/F2 12.5 Tf
+42 658.5 Td
+(What It Does) Tj
+ET
+BT
+/F1 11 Tf
+42 640.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+54 640.5 Td
+(Adds tasks from a text input using the Add button.) Tj
+ET
+BT
+/F1 11 Tf
+43 624.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+55 624.5 Td
+(Supports pressing Enter to submit a new task.) Tj
+ET
+BT
+/F1 11 Tf
+44 608.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+56 608.5 Td
+(Shows tasks in a dynamic list in the page.) Tj
+ET
+BT
+/F1 11 Tf
+45 592.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+57 592.5 Td
+(Marks tasks complete by clicking the task text.) Tj
+ET
+BT
+/F1 11 Tf
+46 576.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+58 576.5 Td
+(Edits task text through a browser prompt.) Tj
+ET
+BT
+/F1 11 Tf
+47 560.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+59 560.5 Td
+(Deletes individual tasks from the list.) Tj
+ET
+BT
+/F1 11 Tf
+48 544.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+60 544.5 Td
+(Filters tasks by All, Completed, and Pending, and can clear all tasks.) Tj
+ET
+BT
+/F2 12.5 Tf
+42 528.5 Td
+(How It Works) Tj
+ET
+BT
+/F1 11 Tf
+42 510.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+54 510.5 Td
+(UI shell: index.html defines the page container, task input, filter buttons, task list, and) Tj
+ET
+BT
+/F1 10.2 Tf
+54 497.5 Td
+(Clear All control.) Tj
+ET
+BT
+/F1 11 Tf
+43 481.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+55 481.5 Td
+(Presentation: style.css applies the centered card layout, gradients, buttons, list item) Tj
+ET
+BT
+/F1 10.2 Tf
+55 468.5 Td
+(styling, and completed-task visual state.) Tj
+ET
+BT
+/F1 11 Tf
+44 452.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+56 452.5 Td
+(Logic/state: script.js keeps a tasks array and currentFilter value in browser memory,) Tj
+ET
+BT
+/F1 10.2 Tf
+56 439.5 Td
+(updates the DOM via renderTasks\(\), and persists tasks with localStorage.) Tj
+ET
+BT
+/F1 11 Tf
+45 423.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+57 423.5 Td
+(Data flow: user action -> JavaScript handler -> tasks state/localStorage update -> list) Tj
+ET
+BT
+/F1 10.2 Tf
+57 410.5 Td
+(rerender in the DOM.) Tj
+ET
+BT
+/F1 11 Tf
+46 394.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+58 394.5 Td
+(Backend/API/build tooling: Not found in repo.) Tj
+ET
+BT
+/F2 12.5 Tf
+42 378.5 Td
+(How To Run) Tj
+ET
+BT
+/F1 11 Tf
+42 360.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+54 360.5 Td
+(Open index.html in any modern web browser.) Tj
+ET
+BT
+/F1 11 Tf
+43 344.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+55 344.5 Td
+(Type a task and use Add or press Enter to create it.) Tj
+ET
+BT
+/F1 11 Tf
+44 328.5 Td
+(-) Tj
+ET
+BT
+/F1 10.2 Tf
+56 328.5 Td
+(No install, package manager, or setup script was found in repo.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3496
+%%EOF

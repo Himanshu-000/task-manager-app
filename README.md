@@ -17,4 +17,4 @@ A modern Task Manager web application built using HTML, CSS, and JavaScript.
 (Add screenshot here)
 
 ## 🔗 Live Demo
-(Coming soon)
+https://himanshu-000.github.io/task-manager-app/
